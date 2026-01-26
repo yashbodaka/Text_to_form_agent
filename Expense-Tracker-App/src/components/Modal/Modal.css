@@ -1,0 +1,44 @@
+.modal {
+  background-color: #efefefd9;
+  position: absolute;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  max-width: 538px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+.input {
+  border: none;
+  padding: 7px 20px;
+  border-radius: 15px;
+}
+.cancel-button {
+  padding: 7px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+  background-color: #e3e3e3;
+  color: black;
+}
+.modal-heading {
+  margin-bottom: 20px;
+}
+.input-container-modal {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.select {
+  padding: 7px 20px;
+  border-radius: 15px;
+}

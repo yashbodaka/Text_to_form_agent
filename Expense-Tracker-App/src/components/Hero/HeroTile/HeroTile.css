@@ -1,0 +1,39 @@
+.hero-tile {
+  height: 181px;
+  width: 355px;
+  background-color: var(--light-grey);
+  border-radius: 10px;
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+.hero-button {
+  padding: 7px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  color: white;
+}
+.green-gradient {
+  background-image: linear-gradient(to right, #b5dc52, #89e148);
+}
+.red-gradient {
+  background-image: linear-gradient(to right, #ff9595, #ff4747, #ff3838);
+}
+.orange-text {
+  color: #f4bb4a;
+}
+.green-text {
+  color: #9dff5b;
+}
+
+@media only screen and (max-width: 885px) {
+  .hero-tile {
+    width: 70vw;
+  }
+}

@@ -1,0 +1,19 @@
+:root {
+  --black: #3b3b3b;
+  --grey: #626262;
+  --light-grey: #9b9b9b;
+}
+
+.body {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 10px;
+}
+.bg-black {
+  background-color: var(--black);
+}
+.heading {
+  color: white;
+  font-size: 32px;
+  margin: 10px 0;
+}

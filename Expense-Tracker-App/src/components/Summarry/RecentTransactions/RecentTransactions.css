@@ -1,0 +1,84 @@
+.transactions-container {
+  width: 67vw;
+  min-height: 40vh;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin: 20px;
+  /* align-items: flex-start; */
+  /* padding-bottom: 5px; */
+  border-bottom: 1px solid #9b9b9b;
+}
+.transactions-right-section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.transactions-left-section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.icons {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  display: "inline-block";
+}
+.date-color {
+  color: #9b9b9b;
+}
+.bold {
+  font-weight: 700;
+}
+@media only screen and (max-width: 885px) {
+  .transactions-container {
+    width: 95vw;
+  }
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.pagination button {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-size: 16px;
+  font-weight: 600;
+}
+.pageIndex {
+  background-color: #43967b;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: white;
+}
+.arrows {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+}

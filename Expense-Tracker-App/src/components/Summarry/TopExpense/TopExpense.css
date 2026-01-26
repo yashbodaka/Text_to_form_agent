@@ -1,0 +1,14 @@
+.expense-container {
+  width: 30vw;
+  height: 40vh;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 885px) {
+  .expense-container {
+    width: 95vw;
+  }
+}

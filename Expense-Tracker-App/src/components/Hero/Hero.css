@@ -1,0 +1,26 @@
+.hero {
+  min-height: 270px;
+  width: 99%;
+  background-color: var(--grey);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  gap: 20px;
+}
+.hero-tile-container {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 885px) {
+  .hero-tile-container {
+    flex-direction: column;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    width: 96vw;
+  }
+}
